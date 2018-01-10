@@ -24,7 +24,7 @@ public class Translate {
     private Translate() {}
 
     private static final Logger l = Logger.getLogger(Translate.class.getName());
-    private static final Locale BASE_LOCALE = Locale.forLanguageTag("en");
+    private static final Locale BASE_LOCALE = Locale.forLanguageTag("vi");
     public static final Locale DEFAULT_LOCALE = Locale.forLanguageTag(EnvGetter.getenv("TNOODLE_DEFAULT_LOCALE", BASE_LOCALE.toLanguageTag()));
 
     private static final HashMap<Locale, HashMap<String, ?>> TRANSLATIONS = new HashMap<Locale, HashMap<String, ?>>();

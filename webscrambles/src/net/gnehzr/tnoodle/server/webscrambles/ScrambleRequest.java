@@ -639,11 +639,11 @@ class ScrambleRequest {
         fontSize = 15;
         cb.beginText();
         cb.setFontAndSize(bf, fontSize);
-        cb.showTextAligned(PdfContentByte.ALIGN_LEFT, "WCA ID:", competitorInfoLeft+padding, top-offsetTop, 0);
+        cb.showTextAligned(PdfContentByte.ALIGN_CENTER, "WCA ID:", competitorInfoLeft+padding, top-offsetTop, 0);
 
         cb.setFontAndSize(bf, 19);
         int wcaIdLength = 63;
-        cb.showTextAligned(PdfContentByte.ALIGN_LEFT, "_ _ _ _  _ _ _ _  _ _", competitorInfoLeft+padding+wcaIdLength, top-offsetTop, 0);
+        cb.showTextAligned(PdfContentByte.ALIGN_CENTER, "_ _ _ _  _ _ _ _  _ _", competitorInfoLeft+padding+wcaIdLength, top-offsetTop, 0);
 
         fontSize = 15;
         offsetTop += fontSize + (int) (marginBottom*(withScramble ? 1.8 : 1.4));
