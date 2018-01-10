@@ -387,7 +387,7 @@ class tmt:
         if not tmt.args.dry_run:
             response, uploadResponses = ghApi.createRelease(tag, files=files)
 
-        for pushTags in [ False, True ]:
+        #for pushTags in [ False, True ]:
             # git push --tags seems to not do everything git push does
 
             #pushCommand = 'git push'
