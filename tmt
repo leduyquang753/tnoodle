@@ -316,13 +316,13 @@ class tmt:
 
             tmt.exitIfWorkspaceNotClean()
 
-        pullCommand = 'git pull'
-        print(pullCommand)
-        assert 0 == os.system(pullCommand)
+        #pullCommand = 'git pull'
+        #print(pullCommand)
+        #assert 0 == os.system(pullCommand)
 
-        pullCommand = 'git pull git@github.com:leduyquang753/tnoodle.git'
-        print(pullCommand)
-        assert 0 == os.system(pullCommand)
+        #pullCommand = 'git pull git@github.com:leduyquang753/tnoodle.git'
+        #print(pullCommand)
+        #assert 0 == os.system(pullCommand)
 
         assert exists('bower.json')
         with open('bower.json') as bower_json_file:
