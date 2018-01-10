@@ -102,7 +102,7 @@ class ScrambleRequest {
     private static BaseFont monoFont, sansSerifFont;
     static {
         try {
-            monoFont = BaseFont.createFont("fonts/Consola.ttf", BaseFont.IDENTITY_H, BaseFont.EMBEDDED);
+            monoFont = BaseFont.createFont("fonts/consola.ttf", BaseFont.IDENTITY_H, BaseFont.EMBEDDED);
             sansSerifFont = BaseFont.createFont("fonts/segoeui.ttf", BaseFont.IDENTITY_H, BaseFont.EMBEDDED);
         } catch (DocumentException e) {
             l.log(Level.INFO, "", e);

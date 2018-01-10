@@ -1,7 +1,7 @@
 vi:
     fmc:
         #original_hash: 9e60b9f
-        scrambleXofY: 'Lần tráo %{scrambleIndex} trong tổng số %{scrambleCount}'
+        scrambleXofY: 'Lần giải %{scrambleIndex} trong tổng số %{scrambleCount}'
         #original_hash: b7126cd
         scramble: Thuật toán tráo
         #original_hash: ec7b598
@@ -10,7 +10,7 @@ vi:
         attempt: Lần giải
         #original_hash: 4705687
         competitor: Thí sinh
-        #original_hash: 220a57b
+        #original_hash: 17783d4
         warning: ĐỪNG ĐIỀN NẾU BẠN LÀ THÍ SINH
         #original_hash: 0263083
         event: Tối ưu hóa
@@ -18,7 +18,8 @@ vi:
         graded: Được đánh giá bởi
         #original_hash: 5faa59d
         result: Kết quả
-        wcaid: "ID WCA"
+        #original_hash: 46036c0
+        wcaid: 'ID WCA:'
         #original_hash: 49debdc
         rule1: Bạn có 60 phút để tìm và viết một cách giải.
         #original_hash: 8b6b48b
@@ -32,7 +33,7 @@ vi:
             Lời giải của bạn không được có quá %{maxMoves} bước xoay, bao gồm cả
             xoay khối.
         #original_hash: 1ba5f27
-        rule5: Kết quả của bạn sẽ được tính theo OBTM.
+        rule5: Kết quả của bạn sẽ được tính trong OBTM.
         #original_hash: 42e1a95
         rule6: >-
             Chỉ sử dụng kí hiệu từ Điều số 12 trong Luật WCA. Nếu bạn không
@@ -46,6 +47,6 @@ vi:
         #original_hash: 80fe739
         counterClockwise: Ngược chiều kim đồng hồ
         #original_hash: 8158159
-        double: Xoay nửa vòng
+        double: Kép
         #original_hash: e014b51
         scrambleOnSeparateSheet: Hãy nhìn một tờ khác để xem các thuật toán tráo.
