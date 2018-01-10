@@ -390,17 +390,17 @@ class tmt:
         for pushTags in [ False, True ]:
             # git push --tags seems to not do everything git push does
 
-            pushCommand = 'git push'
-            if pushTags:
-                pushCommand += ' --tags'
-            print(pushCommand)
-            if not tmt.args.dry_run:
-                assert 0 == os.system(pushCommand)
+            #pushCommand = 'git push'
+            #if pushTags:
+            #    pushCommand += ' --tags'
+            #print(pushCommand)
+            #if not tmt.args.dry_run:
+            #    assert 0 == os.system(pushCommand)
 
-            pushCommand += ' git@github.com:thewca/tnoodle.git master'
-            print(pushCommand)
-            if not tmt.args.dry_run:
-                assert 0 == os.system(pushCommand)
+            #pushCommand += ' git@github.com:thewca/tnoodle.git master'
+            #print(pushCommand)
+            #if not tmt.args.dry_run:
+            #    assert 0 == os.system(pushCommand)
         if not tmt.args.dry_run:
             print("*"*80)
             print("Release draft successfully created! Visit %s to complete release." % response['html_url'])
