@@ -251,7 +251,7 @@ class tmt:
     def _pullRequest(self):
         self.exitIfWorkspaceNotClean()
         self.assertCommitsPushed()
-        ghApi = github.getApi(organization="thewca", repo="tnoodle")
+        ghApi = github.getApi(organization="leduyquang753", repo="tnoodle")
 
         tmt.args.project = None
         tmt.args.no_recursive = False
@@ -312,7 +312,7 @@ class tmt:
         tmt.args.profile = None
 
         if not tmt.args.dry_run:
-            ghApi = github.getApi(organization="thewca", repo="tnoodle")
+            ghApi = github.getApi(organization="leduyquang753", repo="tnoodle")
 
             tmt.exitIfWorkspaceNotClean()
 
@@ -320,7 +320,7 @@ class tmt:
         print(pullCommand)
         assert 0 == os.system(pullCommand)
 
-        pullCommand = 'git pull git@github.com:thewca/tnoodle.git'
+        pullCommand = 'git pull git@github.com:leduyquang753/tnoodle.git'
         print(pullCommand)
         assert 0 == os.system(pullCommand)
 
