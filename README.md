@@ -2,9 +2,10 @@
 
 # TNoodle
 
-TNoodle is a collection of speedcubing-related projects, primarily written in Java. In particular, it contains the official WCA scramble program.
+TNoodle is a collection of speedcubing-related projects, primarily written in Java.
+**This version of TNoodle is unofficial, and as the result it is not allowed to be used in any official WCA competitions!**
 
-[![Build Status](https://travis-ci.org/thewca/tnoodle.svg?branch=master)](https://travis-ci.org/thewca/tnoodle)
+[![Build Status](https://travis-ci.org/leduyquang753/tnoodle.svg?branch=master)](https://travis-ci.org/thewca/tnoodle)
 
 
 ## WCA Scramble Program
