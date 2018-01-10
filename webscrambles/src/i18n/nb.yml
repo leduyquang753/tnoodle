@@ -2,10 +2,9 @@ nb:
     fmc:
         #original_hash: b7126cd
         scramble: Blanding
+        scrambleXofY: Blanding %{scrambleIndex} av %{scrambleCount}
         #original_hash: ec7b598
         round: Runde
-        #original_hash: de04fa0
-        of: av
         #original_hash: 43d44fe
         attempt: Forsøk
         #original_hash: 4705687
@@ -28,7 +27,7 @@ nb:
         rule3: Din løsning skal ikke direkte bruke noen deler av blandealgoritmen.
         #original_hash: c5cc2f6
         rule4: >-
-            Løsningen din skal ikke være lengre enn %s trekk, inkludert
+            Løsningen din skal ikke være lengre enn %{maxMoves} trekk, inkludert
             rotasjoner.
         #original_hash: 1ba5f27
         rule5: Resultatet ditt blir talt i OBTM.

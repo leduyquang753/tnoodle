@@ -2,10 +2,9 @@ ja:
     fmc:
         #original_hash: b7126cd
         scramble: スクランブル
+        scrambleXofY: スクランブル %{scrambleIndex} ／ %{scrambleCount}
         #original_hash: ec7b598
         round: ラウンド
-        #original_hash: de04fa0
-        of: ／
         #original_hash: 43d44fe
         attempt: 試技
         #original_hash: 4705687
@@ -25,7 +24,7 @@ ja:
         #original_hash: 7822590
         rule3: 解答はスクランブルを一部でも用いたもの（逆スクランブルなど）であってはいけません。
         #original_hash: c5cc2f6
-        rule4: 解答は%s手以内である必要があります。
+        rule4: 解答は%{maxMoves}手以内である必要があります。
         #original_hash: 1ba5f27
         rule5: 解答は面の回転を1手，持ち替えを0手として数えます。
         #original_hash: 42e1a95
